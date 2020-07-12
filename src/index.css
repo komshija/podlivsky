@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=303030ff&noise=575057&density=37&opacity=15);
+  background-repeat: repeat;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@keyframes main-logo-anim {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: .8;
+  }
+}
+
+@keyframes main-logo-anim-2 {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: .8;
+  }
+}
+
+#main-logo {
+  animation-name: main-logo-anim-2;
+  animation-duration: 0.5s;
+  opacity: .8;
+}
+
+#main-logo:hover {
+  animation-name: main-logo-anim;
+  animation-duration: 0.5s;
+  opacity: .8;
+}
+
+
+
+.video-link img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  scale: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  object-fit: cover;
+}
+
+.video-link:hover img {
+  -webkit-filter: grayscale(0) ;
+  filter: grayscale(0); 
+  scale:0.98;
+}
+
+.video-name {
+  position: relative;
+  bottom: 50%;
+  z-index: 2;
+  font-size: 50px;
+  margin-left: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  color: white;
+  opacity: 0;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+.video-link a {
+  text-decoration: none; 
+}
+
+.video-link:hover .video-name {
+  margin-left: 50px;
+  opacity: 1;
+}
+
+.yt-container {
+  overflow: hidden;
+    position: relative;
+    width:100%;
+
+}
+
+.yt-container::after {
+  padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.yt-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+@keyframes page-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.page {
+  animation-name: page-animation;
+  animation-duration: 3s;
+}
