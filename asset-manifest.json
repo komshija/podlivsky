@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/podlivsky/static/css/main.6c843735.chunk.css",
+    "main.js": "/podlivsky/static/js/main.afce58fb.chunk.js",
+    "main.js.map": "/podlivsky/static/js/main.afce58fb.chunk.js.map",
+    "runtime-main.js": "/podlivsky/static/js/runtime-main.594706a2.js",
+    "runtime-main.js.map": "/podlivsky/static/js/runtime-main.594706a2.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/podlivsky/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.ed2fe8bb.chunk.js": "/podlivsky/static/js/2.ed2fe8bb.chunk.js",
+    "static/js/2.ed2fe8bb.chunk.js.map": "/podlivsky/static/js/2.ed2fe8bb.chunk.js.map",
+    "index.html": "/podlivsky/index.html",
+    "precache-manifest.a93704115d27df4d1856e2478fe4b034.js": "/podlivsky/precache-manifest.a93704115d27df4d1856e2478fe4b034.js",
+    "service-worker.js": "/podlivsky/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/podlivsky/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.6c843735.chunk.css.map": "/podlivsky/static/css/main.6c843735.chunk.css.map",
+    "static/js/2.ed2fe8bb.chunk.js.LICENSE.txt": "/podlivsky/static/js/2.ed2fe8bb.chunk.js.LICENSE.txt",
+    "static/media/basket.jpg": "/podlivsky/static/media/basket.8ffc7c83.jpg",
+    "static/media/brand-small.png": "/podlivsky/static/media/brand-small.d019c531.png",
+    "static/media/bundesliga.jpg": "/podlivsky/static/media/bundesliga.05bf381a.jpg",
+    "static/media/ceovikend.jpg": "/podlivsky/static/media/ceovikend.0b1a77fa.jpg",
+    "static/media/dodjihitno.jpg": "/podlivsky/static/media/dodjihitno.c0124fce.jpg",
+    "static/media/index.css": "/podlivsky/static/media/font.f6b2d630.otf",
+    "static/media/korakispred.jpg": "/podlivsky/static/media/korakispred.80e13751.jpg",
+    "static/media/logo-red.png": "/podlivsky/static/media/logo-red.e69b06b0.png",
+    "static/media/logo.png": "/podlivsky/static/media/logo.1400d2d1.png",
+    "static/media/podlagos.jpg": "/podlivsky/static/media/podlagos.c80a1d0b.jpg",
+    "static/media/thotpatrola.jpg": "/podlivsky/static/media/thotpatrola.32fc642c.jpg",
+    "static/media/vinopijem.jpg": "/podlivsky/static/media/vinopijem.7ec57fed.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.594706a2.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.ed2fe8bb.chunk.js",
+    "static/css/main.6c843735.chunk.css",
+    "static/js/main.afce58fb.chunk.js"
+  ]
+}
