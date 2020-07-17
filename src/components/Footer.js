@@ -1,13 +1,13 @@
 import React from 'react'
-import { Navbar,NavDropdown,Nav } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 const Footer = () => {
     return (
-        <footer className="d-none d-md-block d-lg-block d-xl-block ">
+        <footer className="d-none d-md-block d-lg-block d-xl-block mt-2">
             <Navbar fixed='bottom' className="text-white">
-                <i>Copyright &copy; Podlivsky 2020</i>
+                <i>&copy; 2018-2020 Podlivsky All right reserved</i>
                 <div className="ml-auto">
-                    <i className="ml-2 mr-2">Facebook</i>
-                    <i className="ml-2 mr-2">Instagram</i>
+                    <a href="https://www.facebook.com/podlivsky/" target="_blank" rel="noopener noreferrer"><i className="ml-2 mr-2">Facebook</i></a>
+                    <a href="https://www.instagram.com/podlivsky/" target="_blank" rel="noopener noreferrer"><i className="ml-2 mr-2">Instagram</i></a>
                 </div>
             </Navbar>
         </footer>

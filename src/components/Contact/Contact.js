@@ -1,9 +1,9 @@
 import React from 'react'
 
 const Contact = () => {
+    document.title = "Contact • Podlivsky";
     return (
         <div className="d-flex justify-content-around align-content-between text-white flex-wrap page">
-
                 <div>
 
                     <div className="m-5">

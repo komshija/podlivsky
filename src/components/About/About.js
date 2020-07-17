@@ -2,34 +2,32 @@ import React from 'react'
 import Logo from "../../images/logo.png";
 import LogoRed from "../../images/logo-red.png";
 const About = () => {
+    document.title = "About • Podlivsky";
     return (
         <div className="page">
-            <div className="container text-white text-center" role="alert">
-            <img src={Logo} className="w-50" />
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the
-              1500s, when an unknown printer took a galley of type and scrambled it to
-              make a type specimen book. It has survived not only five centuries, but
-              also the leap into electronic typesetting, remaining essentially
-              unchanged. It was popularised in the 1960s with the release of Letraset
-              sheets containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            </p>
 
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            </p>
+            <div className="container-fluid text-white text-center" role="alert">
+               
+                    <img src={Logo} className="w-50" alt="podlivsky-logo" />
+                    <p>
+                    Podlivsky was founded by Ilija Nikolic, a young Serbian video artist. 
+                    He started his work in July 2018, with his first official music video being ‘’Sedmo nebo’’, a song by Elon Hendrix. 
+                    </p>
 
-            <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            </p>
+                    <p>
+                    Since than, he is pushing his unique aesthetic and striving for originality and quality in all of his work. 
+                    </p>
 
-            <img src={LogoRed} className="w-50" />
+                    <p>
+                    His future plans regarding his art include establishing his own video and editing company, with employees being fellow editors and graphic designers.
+                    </p>
+
+                    <p>
+                    He has collaborated with numerous labels such as: Apollo, Hazze, Bassivity Digital and Mahala Bounce. 
+                    Apart from official labels, he has done work for many independent artists.
+                    </p>
+
+                    <img src={LogoRed} className="w-50" alt="podlivsky-logo-red" />
             </div>
         </div>
     )
